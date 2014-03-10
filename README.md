@@ -17,7 +17,8 @@ BeautifulSoup
 
 支持城市列表
 ===========
-[所有城市](http://m.cnpm25.cn/choicecity.html)
+* [所有城市](http://m.cnpm25.cn/choicecity.html)
+* 注意：宿州请输入`suzhoushi`，苏州请输入`suzhou`
 
 
 使用方法
