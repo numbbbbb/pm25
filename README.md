@@ -15,6 +15,11 @@ pm25
 BeautifulSoup
 
 
+支持城市列表
+===========
+[所有城市](http://m.cnpm25.cn/choicecity.html)
+
+
 使用方法
 ===========
 

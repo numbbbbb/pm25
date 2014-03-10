@@ -74,4 +74,7 @@ def _get_pm25_data(city):
 
 def get(city):
     if city:
-        return _get_pm25_data(city)
+        try:
+            return _get_pm25_data(city)
+        except:
+            return '错误： 请检查您是否拼错城市'
