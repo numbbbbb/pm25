@@ -1,0 +1,4 @@
+include *.txt
+include README.md
+include pm25/__init__.py
+include pm25/pm25.py
