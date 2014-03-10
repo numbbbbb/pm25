@@ -9,14 +9,18 @@ pm25
 
     $ sudo pip install pm25
 
+
+依赖
+===========
+BeautifulSoup
+
+
 使用方法
 ===========
 
     >>> import pm25
     >>> print pm25.get('beijing')['time']
     更新：03-10 10:00 
-    >>> print ip2loc.find("106.186.17.155")
-    '日本   日本'
     >>> print pm25.get('beijing')['AQI']
     [u'114', u'102', u'102', u'93', u'89', u'97', u'99', u'104', u'95', u'74', u'67', u'77', u'97']
     >>> print pm25.get('beijing')[u'监测点'][0]
